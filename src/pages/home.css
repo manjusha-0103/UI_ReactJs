@@ -1,11 +1,13 @@
 .main{
     display: flex;
     width: 100%;
-    padding: 0.5rem;
+    height: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
+    flex-wrap: wrap;
+   
 }
 .announcment-bar{
     display: flex;
@@ -35,7 +37,7 @@
 .badge{
     display: flex;
     padding-left: 0.55rem; 
-    padding-right: 0.55rem;
+    padding-right: 0.55rem; 
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
@@ -381,6 +383,7 @@
     padding-left: 80px;
     padding-right: 80px;
     margin-bottom: 0px;
+    flex-wrap: wrap;
 
 }
 .lc-conatiner{
@@ -391,6 +394,7 @@
     align-items: center; 
     gap: 8px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .lc-row{
@@ -401,6 +405,7 @@
     display: inline-flex;
     padding-right: 80px;
     padding-left: 80px;
+   
 }
 
 .lc-logo{
@@ -412,6 +417,7 @@
     align-items: center; 
     gap: 8px; 
     display: inline-flex;
+
 }
 
 .lc-logo img{
@@ -429,6 +435,7 @@
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
+    flex-wrap: wrap;
 }
 
 .f-conatainer{
@@ -439,6 +446,7 @@
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
+    flex-wrap: wrap;
 }
 
 .f-row{
@@ -448,6 +456,7 @@
     justify-content: center;
     align-items: center;
     gap: 6rem;
+    flex-wrap: wrap;
 }
 
 .f-subtitle{
@@ -457,6 +466,7 @@
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
+    flex-wrap: wrap;
 }
 
 .fs-containt{
@@ -465,6 +475,7 @@
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+    flex-wrap: wrap;
 }
 .fs-main-con{
     display: flex;
@@ -473,6 +484,7 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
+
 }
 
 .fs-title{
@@ -486,6 +498,7 @@
     font-weight: 600;
     line-height: 3rem; /* 120% */
     margin-bottom: 0px;
+    text-wrap:balance;
 }
 
 .fs-title-sub{
@@ -620,6 +633,7 @@
     gap: 0.5rem;
     background: #FFF;
     margin-bottom: 0px;
+    flex-wrap: wrap;
 }
 
 .f-one-con{
@@ -630,6 +644,7 @@
     justify-content: center;
     align-items: center;
     gap: 4.5rem;
+    
 }
 
 .f-one-row{
@@ -821,6 +836,7 @@
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
+    flex-wrap: wrap;
 }
 
 .test-content{
@@ -942,6 +958,7 @@
     align-items: center;
     gap: 0.5rem;
     align-self: stretch;
+    flex-wrap: wrap;
 }
 
 .call-to-action{
@@ -1066,6 +1083,7 @@
     gap: 0.5rem;
     border-top: 1px solid  #E6E7E9;
     background:  #FFF;
+   
 }
 
 .foot-cont{
@@ -1075,6 +1093,7 @@
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
+    
 }
 
 .foot-cont-row{
@@ -1082,6 +1101,8 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 6rem;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .cont1{
